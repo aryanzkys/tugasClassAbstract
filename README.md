@@ -1,6 +1,6 @@
 # Sistem Rental Kendaraan
 
-Repositori ini merupakan studi kasus untuk mengenalkan konsep *abstract class* pada Java melalui simulasi sistem rental kendaraan. Mahasiswa diminta untuk mengimplementasikan kelas abstrak `Kendaraan`, tiga subclass konkret (`Mobil`, `Motor`, `Truk`), serta antarmuka konsol sederhana yang menampilkan polymorphism secara praktis.
+Repositori ini merupakan studi kasus untuk mengenalkan konsep *abstract class* pada Java melalui simulasi sistem rental kendaraan. Kami diminta untuk mengimplementasikan kelas abstrak `Kendaraan`, tiga subclass konkret (`Mobil`, `Motor`, `Truk`), serta antarmuka konsol sederhana yang menampilkan polymorphism secara praktis.
 
 ## Struktur Proyek
 
@@ -42,5 +42,3 @@ src/
 - Menambahkan menu untuk mengembalikan kendaraan (`setTersedia(true)`).
 - Memperluas hierarki dengan tipe kendaraan lain atau strategi biaya tambahan berbeda.
 - Menggunakan *unit test* (mis. JUnit) untuk memverifikasi logika perhitungan biaya.
-
-Selamat belajar dan bereksperimen dengan konsep abstract class dalam konteks yang lebih nyata!
