@@ -22,7 +22,7 @@ src/
 - **Validasi input** diterapkan untuk menangani ID yang tidak ditemukan, hari sewa di luar rentang, serta format masukan non-numerik.
 - **Implementasi dasar** hanya memakai kelas bawaan (`java.util.Scanner`, `java.util.ArrayList`) sehingga tetap ramah untuk latihan semester awal.
 
-> **Catatan asumsi biaya tambahan**: Biaya tambahan diterapkan satu kali per transaksi (tidak bergantung pada jumlah hari) sesuai kerangka abstract method yang disediakan pada lembar studi kasus.
+> **Catatan asumsi biaya tambahan**: Biaya tambahan diterapkan satu kali per transaksi (tidak bergantung pada jumlah hari) sesuai kerangka abstract method yang disediakan pada lembar studi kasus 2.
 
 ## Menjalankan Program
 
@@ -38,12 +38,10 @@ src/
 
 ## Ide Pengembangan Lanjutan
 
-- Menyimpan data inventaris dari file eksternal atau basis data sederhana.
+- Menyimpan data inventaris dari file atau database sederhana agar lebih praktis.
 - Menambahkan menu untuk mengembalikan kendaraan (`setTersedia(true)`).
-- Memperluas hierarki dengan tipe kendaraan lain atau strategi biaya tambahan berbeda.
-- Menggunakan *unit test* (mis. JUnit) untuk memverifikasi logika perhitungan biaya.
-
-Selamat belajar dan bereksperimen dengan konsep abstract class dalam konteks yang lebih nyata!
+- Memperluas tipe kendaraan atau membuat variasi perhitungan biaya tambahan.
+- Menggunakan unit test (misal JUnit) untuk memastikan perhitungan biaya berjalan benar.
 
 ## Kontributor
 
