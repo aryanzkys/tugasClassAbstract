@@ -20,7 +20,7 @@ src/
 - **Polymorphism** dimanfaatkan saat menghitung biaya sewa dan menampilkan detail, sehingga `Main` dapat bekerja dengan koleksi `ArrayList<Kendaraan>` tanpa mengetahui tipe spesifik objek.
 - **Menu konsol** menyediakan opsi untuk menampilkan inventaris, menghitung biaya sewa (1-7 hari), mencari kendaraan yang tersedia berdasar jenis, serta memperbarui status setelah kendaraan disewa.
 - **Validasi input** diterapkan untuk menangani ID yang tidak ditemukan, hari sewa di luar rentang, serta format masukan non-numerik.
-- **Implementasi dasar** hanya memakai kelas bawaan (`java.util.Scanner`, `java.util.ArrayList`) sehingga tetap ramah untuk latihan semester awal.
+- **Implementasi dasar** hanya memakai kelas bawaan (`java.util.Scanner`, `java.util.ArrayList`).
 
 > **Catatan asumsi biaya tambahan**: Biaya tambahan diterapkan satu kali per transaksi (tidak bergantung pada jumlah hari) sesuai kerangka abstract method yang disediakan pada lembar studi kasus 2.
 
