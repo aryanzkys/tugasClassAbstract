@@ -42,3 +42,14 @@ src/
 - Menambahkan menu untuk mengembalikan kendaraan (`setTersedia(true)`).
 - Memperluas hierarki dengan tipe kendaraan lain atau strategi biaya tambahan berbeda.
 - Menggunakan *unit test* (mis. JUnit) untuk memverifikasi logika perhitungan biaya.
+
+Selamat belajar dan bereksperimen dengan konsep abstract class dalam konteks yang lebih nyata!
+
+## Kontributor
+
+- Muhammad Hafiizh Anindya (255150207111057) – merancang abstract class `Kendaraan` dan logika validasi dasar.
+- Ulfa Aulia Sakina (255150207111058) – mengimplementasikan subclass `Mobil` beserta aturan biaya tambahan.
+- Aryan Zaky Prayogo (255150207111059) – menyusun kelas `Main`, menu interaktif, dan koordinasi integrasi.
+- Faeyza Safa Izz Deyardi (255150207111060) – mengembangkan subclass `Motor` dan pengujian biaya sewa.
+- Raven Ravellyn Sulistyo (255150207111061) – mengimplementasikan subclass `Truk` serta dokumentasi teknis awal.
+- Jaler Zuhdi Nail (255150207111062) – melakukan pengujian keseluruhan alur dan perapihan dokumentasi.
