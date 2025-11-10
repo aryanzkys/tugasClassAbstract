@@ -12,14 +12,13 @@ public class Mobil extends Kendaraan {
         return bensin;
     }
 
-    @Override
     protected double hitungBiayaTambahan() {
         return bensin ? getBiayaHarian() * 0.1 : 0;
     }
 
-    @Override
     public void tampilkanDetail() {
         super.tampilkanDetail();
         System.out.println("   Tipe Bahan Bakar: " + (bensin ? "Bensin" : "Non-bensin"));
     }
 }
+
