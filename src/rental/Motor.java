@@ -20,6 +20,5 @@ public class Motor extends Kendaraan {
         System.out.println("Jenis: Motor");
         super.tampilkanDetail();
         System.out.println("Helm disediakan: " + (helmDisediakan ? "Ya" : "Tidak"));
-        System.out.println("--------------------------");
     }
 }
