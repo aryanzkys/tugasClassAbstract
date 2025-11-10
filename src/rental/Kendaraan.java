@@ -14,7 +14,7 @@ public abstract class Kendaraan {
             throw new IllegalArgumentException("Nama kendaraan tidak boleh kosong");
         }
         if (biayaHarian <= 0) {
-            throw new IllegalArgumentException("Biaya harian harus positif");
+            throw new IllegalArgumentException("Biaya harian harus lebih dari 0");
         }
         this.id = id;
         this.nama = nama;
@@ -44,10 +44,10 @@ public abstract class Kendaraan {
 
     public double hitungBiayaTotal(int hari) {
         if (hari <= 0) {
-            throw new IllegalArgumentException("Hari sewa harus positif");
+            throw new IllegalArgumentException("Hari sewa harus lebih dari 0");
         }
         if (hari > 7) {
-            throw new IllegalArgumentException("Hari sewa maksimum 7 hari");
+            throw new IllegalArgumentException("Hari sewa maksimal 7 hari");
         }
         return (biayaHarian * hari) + hitungBiayaTambahan();
     }
