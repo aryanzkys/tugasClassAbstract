@@ -134,11 +134,11 @@ public class Main {
     }
 
     private static void inisialisasiInventaris() {
-        INVENTARIS.add(new Mobil("MBL001", "Toyota Avanza", 350_000, true, true));
-        INVENTARIS.add(new Mobil("MBL002", "Daihatsu Terios", 375_000, true, false));
-        INVENTARIS.add(new Motor("MTR101", "Honda Beat", 90_000, true));
-        INVENTARIS.add(new Motor("MTR102", "Yamaha NMAX", 120_000, false));
-        INVENTARIS.add(new Truk("TRK55", "Hino Dutro", 500_000, true, 4));
+        INVENTARIS.add(new Mobil("MBS001", "Porsche 911 GT3", 650_000, true, true));
+        INVENTARIS.add(new Mobil("MBL002", "McLaren 765s", 750_000, true, false));
+        INVENTARIS.add(new Motor("MTS101", "BMW-S1000RR", 550_000, true));
+        INVENTARIS.add(new Motor("MTS102", "CBR-1000RRR", 530_000, false));
+        INVENTARIS.add(new Truk("TRK55", "Hino Dutro", 700_000, true, 4));
     }
 
     private static String formatRupiah(double angka) {
