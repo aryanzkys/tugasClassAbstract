@@ -17,7 +17,7 @@ public class Truk extends Kendaraan {
 
     @Override
     protected double hitungBiayaTambahan() {
-        return muatanMaks * 50_000;
+        return muatanMaks * 25_000;
     }
 
     @Override
